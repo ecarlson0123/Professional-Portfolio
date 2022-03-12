@@ -26,6 +26,7 @@ body{
 
 .border-right{
     border-right: 3px solid ;
+    width: 20vw;
 }
 
 .border-bottom{
@@ -46,6 +47,15 @@ body{
 
 .flex-section{
     flex: 10;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
 /* Header Stlying */
 header{
@@ -69,7 +79,7 @@ header h1{
 
 header h1 a{
     font-weight: bold;
-    font-size:;
+    font-size:40px;
     margin: auto;
     text-align: center;
     line-height: 100%;
@@ -89,6 +99,7 @@ header ul li{
     margin: 0 20px 0 20px;
     align-items: center;
 }
+
 header nav{
     margin: 7px 0;
     display: flex;
@@ -127,24 +138,44 @@ header nav ul li a {
 
 .info p{
     padding: 50px;
+    width: 100%;
 }
 
 /* My Work Styling */
-.works{}
+.my-works{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
 
-.work{}
+.works{
+    width: 100%;
+}
+
+.work{
+    flex: 1;
+    background-color: aqua;
+    margin: 20px;
+
+}
 
 .work div{}
 
+.work-info{
+    height: 200px;
+    width: 300px;
+}
+
 .work-title{
+    font-size: 24px;
+    font-weight: bold;
     color: var(--primary-color)
 }
 
 .work-subtitle{
+    font-size: 16px;
     background-color: var(--primary-color)
 }
-
-.main-work{}
 
 .work1{}
 
@@ -157,7 +188,38 @@ header nav ul li a {
 .work5{}
 
 /* Contact Me Styling */
-.contact-info{}
+.contact-info{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+}
+
+.contact-info address{
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contact-info ul a {
+    text-align:center;
+    line-height: 100%;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.contact-info ul li{
+    display: flex;
+    margin: 0 20px 0 20px;
+    align-items: center;
+}
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
