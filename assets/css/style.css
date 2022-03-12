@@ -20,7 +20,6 @@ body{
     font-size: 40px;
     color: var(--primary-color);
     text-align: right;
-    padding-left: 10vw;
     padding-right: 1vw;
 }
 
@@ -42,7 +41,7 @@ body{
 }
 
 .flex-title{
-    flex: 3;
+    flex: 5;
 }
 
 .flex-section{
@@ -57,16 +56,21 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
 /* Header Stlying */
 header{
     align-items: center;
+    top:0;
     padding: 30px 0;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--primary-color);
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     z-index: 9999;
 }
 
