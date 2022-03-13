@@ -41,7 +41,7 @@ body{
 }
 
 .flex-title{
-    flex: 5;
+    flex: 3;
 }
 
 .flex-section{
@@ -50,6 +50,7 @@ body{
 
 .flex-row{
     display: flex;
+    flex: 1;
 }
 
 .flex-column{
@@ -136,9 +137,7 @@ header nav ul li a {
     display: flex;
 }
 
-.info h2{;
-
-}
+.info h2{}
 
 .info p{
     padding: 50px;
@@ -153,23 +152,43 @@ header nav ul li a {
 }
 
 .works{
+    flex-wrap: wrap;
     width: 100%;
 }
 
 .work{
     flex: 1;
-    background-color: aqua;
     margin: 20px;
 
 }
 
-.work div{}
-
-.work-info{
-    height: 200px;
-    width: 300px;
+.work{
+    background-color: rgba(122, 132, 138, 0.87);
+    background-blend-mode: multiply;
+    display: flex;
+    height: 15vh;
+    border: 3px solid var(--secondary-color);
+    min-width: 175px;
 }
 
+.work-info{
+    flex: none;
+    position: relative;
+    bottom: 0;
+    height: 100;
+    width: 150;
+    padding: 10px 15px;
+    background-color: var(--secondary-color);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.position{
+    display: flex;
+    align-items:flex-end ;
+    flex:none;
+    height: 15vh;
+}
 .work-title{
     font-size: 24px;
     font-weight: bold;
@@ -178,18 +197,38 @@ header nav ul li a {
 
 .work-subtitle{
     font-size: 16px;
-    background-color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-.work1{}
+/* Work Background Images */
+.work1{
+    background-image: url("../images/run-buddy.PNG");
+    background-size: 110%;
+}
 
-.work2{}
+.work2{
+    background-image: url("../images/work-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-.work3{}
+.work3{
+    background-image: url("../images/work-2.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-.work4{}
+.work4{
+    background-image: url("../images/work-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-.work5{}
+.work5{
+    background-image: url("../images/work-4.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 /* Contact Me Styling */
 .contact-info{
@@ -213,7 +252,6 @@ header nav ul li a {
     list-style: none;
 }
 .contact-info ul a {
-    text-align:center;
     line-height: 100%;
     text-decoration: none;
     color: var(--primary-color);
@@ -222,7 +260,6 @@ header nav ul li a {
 .contact-info ul li{
     display: flex;
     margin: 0 20px 0 20px;
-    align-items: center;
 }
 
 
