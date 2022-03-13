@@ -407,7 +407,7 @@ height: 50vh;
     }
 
     .work1 > a> div{
-        height: 30vh;
+        height: 20vh;
         margin-top: 25px;
     }
 
@@ -440,5 +440,7 @@ height: 50vh;
         margin-left: 0;
     }
 
-
+    .work {
+        min-width: 250px;
+    }
   }
