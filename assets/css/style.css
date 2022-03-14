@@ -180,9 +180,23 @@ header nav ul li a {
     display: flex;
 }
 
+.info > div >div{
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info >div> div > img{
+    height: 225px;
+    width: 300px;
+    margin: 10px;
+    border: 3px solid var(--secondary-color);
+}
+
 .info p{
     padding: 50px;
     width: 100%;
+    color: var(--primary-color);
 }
 
 /* ####################################################### */
@@ -245,7 +259,7 @@ header nav ul li a {
 }
 
 .work1 > a> div{
-height: 50vh;
+height: 30vh;
 }
 
 .work-title{
