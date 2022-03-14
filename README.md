@@ -42,4 +42,6 @@ Now to add tweaks to each section so that as the screen size changes, the page c
 ## Finished Product
 See screenshot of finished product here: [Finished Webpage](./assets/images/completed-page.PNG)
 
-Deplyed website link here:
+Deplyed website link here:[Deployed WebPage](https://ecarlson0123.github.io/Professional-Portfolio/)
+
+
