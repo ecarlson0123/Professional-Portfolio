@@ -233,6 +233,7 @@ header nav ul li a {
     height: 15vh;
     border: 3px solid var(--secondary-color);
     min-width: 175px;
+    min-height: 125px;
 }
 
 .work:hover{
